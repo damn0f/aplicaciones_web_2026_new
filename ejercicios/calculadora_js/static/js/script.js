@@ -18,7 +18,7 @@ function operacion(op) {
   terminado = false;
 }
 
-function resulatdp
+function resultado() {
   var numero2 = pantalla.value;
   var res = 0;
 
