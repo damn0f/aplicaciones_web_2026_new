@@ -424,9 +424,31 @@
       "author": "human",
       "confidence": 0.92,
       "aiEdits": 0,
-      "humanEdits": 31,
+      "humanEdits": 3,
       "lastEditType": "human",
-      "lastEditTimestamp": 1792418881783,
+      "lastEditTimestamp": 1792421051285,
+      "signals": {
+        "typingRhythm": 0.125,
+        "editSize": 0.5,
+        "cursorMovement": 0.5,
+        "editSequence": 0.67,
+        "undoFrequency": 0.1,
+        "extensionSource": 0.5,
+        "velocityProfile": 0.5,
+        "selectionPattern": 0.5,
+        "pastePattern": 0.2,
+        "deletionPattern": 0.15,
+        "pausePattern": 0.15
+      }
+    },
+    {
+      "line": 20,
+      "author": "human",
+      "confidence": 0.92,
+      "aiEdits": 0,
+      "humanEdits": 15,
+      "lastEditType": "human",
+      "lastEditTimestamp": 1792421061724,
       "signals": {
         "typingRhythm": 0.125,
         "editSize": 0.07999999999999996,
@@ -442,7 +464,29 @@
       }
     },
     {
-      "line": 20,
+      "line": 21,
+      "author": "human",
+      "confidence": 0.92,
+      "aiEdits": 0,
+      "humanEdits": 5,
+      "lastEditType": "human",
+      "lastEditTimestamp": 1792421064019,
+      "signals": {
+        "typingRhythm": 0.125,
+        "editSize": 0.15000000000000002,
+        "cursorMovement": 0.5,
+        "editSequence": 0.8300000000000001,
+        "undoFrequency": 0.1,
+        "extensionSource": 0.5,
+        "velocityProfile": 0.5,
+        "selectionPattern": 0.5,
+        "pastePattern": 0.2,
+        "deletionPattern": 0.15,
+        "pausePattern": 0.15
+      }
+    },
+    {
+      "line": 22,
       "author": "human",
       "confidence": 0.92,
       "aiEdits": 0,
@@ -464,7 +508,7 @@
       }
     },
     {
-      "line": 21,
+      "line": 23,
       "author": "human",
       "confidence": 0.92,
       "aiEdits": 0,
@@ -486,7 +530,7 @@
       }
     },
     {
-      "line": 22,
+      "line": 24,
       "author": "human",
       "confidence": 0.92,
       "aiEdits": 0,
@@ -508,7 +552,7 @@
       }
     },
     {
-      "line": 23,
+      "line": 25,
       "author": "ai",
       "confidence": 0.18133333333333312,
       "aiEdits": 1,
@@ -530,7 +574,7 @@
       }
     },
     {
-      "line": 24,
+      "line": 26,
       "author": "ai",
       "confidence": 0.18133333333333312,
       "aiEdits": 1,
@@ -553,12 +597,12 @@
     }
   ],
   "summary": {
-    "totalLines": 25,
+    "totalLines": 27,
     "aiLines": 7,
-    "humanLines": 17,
+    "humanLines": 19,
     "mixedLines": 1,
-    "aiPercentage": 28,
-    "humanPercentage": 68
+    "aiPercentage": 26,
+    "humanPercentage": 70
   },
-  "lastUpdated": 1792418883039
+  "lastUpdated": 1792421065324
 }
