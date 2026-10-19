@@ -1,0 +1,42 @@
+:root {
+  --color-1: #E2F7F4;
+  --color-2: #E1F3D4;
+  --color-3: #E0D6F3;
+  --color-4: #F5F6E8;
+  --color-5: #B9B2EA;
+}
+
+body {
+  background-color: var(--color-1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.calculadora {
+  width: 360px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--color-5);
+}
+
+#pantalla {
+  width: 340px;
+  height: 70px;
+  font-size: 32px;
+  text-align: right;
+  margin-bottom: 15px;
+  background-color: var(--color-1);
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  margin: 4px;
+  font-size: 26px;
+  background-color: var(--color-2);
+}
+
+.igual {
+  width: 326px;
+  background-color: var(--color-4);
+}
