@@ -1,7 +1,7 @@
 var pantalla = document.getElementById("pantalla");
 var numero1 = "";
 var operador = "";
-var terminado = false;
+var terminado = "";
 
 function numero(n) {
   if (terminado == true) {
@@ -13,12 +13,12 @@ function numero(n) {
 
 function operacion(op) {
   numero1 = pantalla.value;
-  operador = op;
+  operador = "";
   pantalla.value = "";
   terminado = false;
 }
 
-function resultado() {
+function resulatdp
   var numero2 = pantalla.value;
   var res = 0;
 
