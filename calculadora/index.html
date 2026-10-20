@@ -7,19 +7,21 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <div class="calculadora">
-        <input id="numero1" type="number" placeholder="Número 1">
-        <input id="numero2" type="number" placeholder="Número 2">
-        <div class="botones">
-            <button onclick="sumar()">+</button>
-            <button onclick="restar()">-</button>
-            <button onclick="multiplicar()">*</button>
-            <button onclick="dividir()">/</button>
+    <div id="contenedor" class="formulario">
+        <label for="numero1">Número 1</label><br>
+        <input type="number" id="numero1"><br>
 
-        </div>
-        <input id="resultado" placeholder="Resultado" readonly>
-        <button onclick="borrar()">Borrar</button>
+        <label for="numero2">Número 2</label><br>
+        <input type="number" id="numero2"><br>
+
+        <label for="resultado">Resultado</label><br>
+        <input type="number" id="resultado" readonly><br>
+
+        <button id="suma" onclick="sumar()">Suma</button><br>
+        <button id="resta" onclick="restar()">Resta</button><br>
+        <button id="multiplicar" onclick="multiplicar()">Multiplicar</button><br>
+        <button id="dividir" onclick="dividir()">Dividir</button><br>
     </div>
-    <script src="static/js/script.js"></script>
+    <script  src="static/js/script.js"></script>
 </body>
 </html>
