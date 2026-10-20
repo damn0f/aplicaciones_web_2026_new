@@ -14,7 +14,7 @@ async function VerAnime(){
         datos_random.textContent = data.content;
 
     } catch (error){
-        console.error("UPS ALGO FALLO: ", error.massage);
+        console.error("UPS ALGO FALLO: ", error.message);
     }
 }
    
