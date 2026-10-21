@@ -6,21 +6,21 @@
       "author": "human",
       "confidence": 0.92,
       "aiEdits": 0,
-      "humanEdits": 4,
+      "humanEdits": 20,
       "lastEditType": "human",
-      "lastEditTimestamp": 1792505811896,
+      "lastEditTimestamp": 1792506960875,
       "signals": {
-        "typingRhythm": 0.3,
+        "typingRhythm": 0.125,
         "editSize": 0.07999999999999996,
-        "cursorMovement": 0.3,
+        "cursorMovement": 0.85,
         "editSequence": 0.8300000000000001,
         "undoFrequency": 0.1,
         "extensionSource": 0.5,
-        "velocityProfile": 0.5,
+        "velocityProfile": 0.8,
         "selectionPattern": 0.5,
         "pastePattern": 0.2,
-        "deletionPattern": 0.5,
-        "pausePattern": 0.5
+        "deletionPattern": 0.15,
+        "pausePattern": 0.15
       }
     },
     {
@@ -182,9 +182,9 @@
       "author": "human",
       "confidence": 0.92,
       "aiEdits": 0,
-      "humanEdits": 113,
+      "humanEdits": 115,
       "lastEditType": "human",
-      "lastEditTimestamp": 1792506888394,
+      "lastEditTimestamp": 1792506966263,
       "signals": {
         "typingRhythm": 0.125,
         "editSize": 0.07999999999999996,
@@ -192,7 +192,7 @@
         "editSequence": 0.8300000000000001,
         "undoFrequency": 0.1,
         "extensionSource": 0.5,
-        "velocityProfile": 0.5,
+        "velocityProfile": 0.8,
         "selectionPattern": 0.5,
         "pastePattern": 0.2,
         "deletionPattern": 0.15,
@@ -274,5 +274,5 @@
     "aiPercentage": 0,
     "humanPercentage": 100
   },
-  "lastUpdated": 1792506889653
+  "lastUpdated": 1792610638495
 }
