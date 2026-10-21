@@ -1,0 +1,22 @@
+.formulario {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+button {
+    background-color: beige;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: violet;
+}
+
+#numero1, #numero2 {
+    background-color: beige;
+    padding: 6px;
+    font-size: 15px;
+}
